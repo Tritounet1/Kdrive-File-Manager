@@ -1,11 +1,13 @@
-Simple application intérragisant avec l'api d'infomaniak, principalement pour la fonctionnalité du drive (stockage).
+# Kdrive-File-Manager
 
-Pour faire fonctionner l'application il faut créer un fichier .env et le compléter avec le .env.example (les informations nécéssaires sont sur son compte Infomaniak, il faut créer un token: https://www.infomaniak.com/fr/support/faq/2582/ajouter-et-gerer-les-tokens-api-infomaniak).
+It's a simple app which use the Infomaniak API for interact with kDrive.
 
-To-Do :
+In first, create a account on Infomaniak : https://www.infomaniak.com/en
 
-- Fonction pour vérifier connexion et refaire les requêtes toutes les 30 secondes si problème de connexion
-- Fonction pour téléverser fichier
-- Faire une petite documentation des routes de l'api utilisés
-- Créer un serveur express avec les fonctionnalités de l'application
-- Créer un affichage simple (react ou vue.js)
+## Get drive id
+
+Connect to your kDrive and get the URL : https://ksuite.infomaniak.com/kdrive/app/drive/-->{your drive id}<--/...
+
+## Create a token
+
+You can check this to create a token : https://www.infomaniak.com/en/support/faq/2582/add-and-manage-infomaniak-api-tokens
